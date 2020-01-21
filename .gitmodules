@@ -1,0 +1,6 @@
+[submodule "thirdparty/ma-particle-envs"]
+	path = thirdparty/ma-particle-envs
+	url = https://github.com/openai/multiagent-particle-envs
+[submodule "thirdparty/ma-airl"]
+	path = thirdparty/ma-airl
+	url = https://github.com/ermongroup/ma-airl
