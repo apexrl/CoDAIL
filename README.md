@@ -1,4 +1,10 @@
 # CoDAIL
-Implementation of CoDAIL in the paper [Multi-Agent Interactions Modeling with Corrlated Policies](https://openreview.net/forum?id=B1gZV1HYvS)
+Implementation of CoDAIL in the paper [Multi-Agent Interactions Modeling with Corrlated Policies](https://openreview.net/forum?id=B1gZV1HYvS), based on [MA-AIRL](https://github.com/ermongroup/ma-airl).
 
-**NOTE**: we will update this repo, or you can also have a quick view for its another implementation [codailiclr2020/CoDAIL](https://github.com/codailiclr2020/CoDAIL)
+## Running the Code
+
+- For code implementing CoDAIL, please visit `multi-agent-irl` folder.
+- For the OpenAI particle environment code, please visit `multi-agent-particle-envs` folder.
+
+
+**NOTE**: Early implementation can be seen at [codailiclr2020/CoDAIL](https://github.com/codailiclr2020/CoDAIL)

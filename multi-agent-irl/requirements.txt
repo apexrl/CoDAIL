@@ -1,0 +1,14 @@
+tensorflow >= 1.2
+numpy
+scipy
+mpi4py
+ray
+click
+gym == 0.10.4
+tqdm
+joblib
+progressbar2
+zmq
+cloudpickle
+baselines
+box2d-py
