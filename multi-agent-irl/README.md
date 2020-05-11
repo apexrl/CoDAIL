@@ -1,9 +1,17 @@
 # Multi-Agent Adversarial Inverse Reinforcement Learning
 
+Frist you should cd the particle environment folder and type:
+```
+pip install -e .
+```
+to install the env.
+
 Run Multi-Agent ACKTR to obtain experts:
 ```
 python -m sandbox.mack.run_simple
+python -m sandbox.mack.run_simple_om
 ```
+The former generates interactions that agents do not consider others, while the latter generates interactions that agents model others when making decisions.
 
 Run CoDAIL / NCDAIL / MA-GAIL / MA-AIRL:
 
