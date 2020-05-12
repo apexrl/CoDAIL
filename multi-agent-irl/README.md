@@ -16,7 +16,13 @@ Run Multi-Agent ACKTR to obtain experts:
 python -m sandbox.mack.run_simple
 python -m sandbox.mack.run_simple_om
 ```
-The former generates interactions that agents do not consider others, while the latter generates interactions that agents model others when making decisions. Notice you should be aware of the args parameters to run it successfully.
+The former generates interactions that agents do not consider others, while the latter generates interactions that agents model others when making decisions. Notice you should be aware of the args to run it successfully.
+
+To generate expert trajectories:
+```
+ python -m irl.render
+```
+with specific args
 
 Run CoDAIL / NCDAIL / MA-GAIL / MA-AIRL:
 
