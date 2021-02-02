@@ -285,7 +285,7 @@ def render(env, algo, seed, image, vis_dis, hyper_study, epoch, sample, num_traj
 def kl_divergence(x1, x2):
     p = kde_prob(x1,min_v=-2,max_v=2,scale=100)
     q = kde_prob(x2,min_v=-2,max_v=2,scale=100)
-    return np.sum(np.where(p != 0, p * np.log(p / q), 0))
+    return np.sum(np.where(p != 0, p * np.log(p / q), 0)) / scale # should be rescaled!
 def kde_prob(x,min_v=-2,max_v=2,scale=100):
     # print(x)
     kde = KernelDensity(kernel="gaussian", bandwidth=(max_v-min_v)*1.0/scale).fit(list(x)) # x.shape: [None, 2]
