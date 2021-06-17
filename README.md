@@ -1,5 +1,5 @@
 # CoDAIL
-Implementation of CoDAIL in the paper [Multi-Agent Interactions Modeling with Corrlated Policies](https://openreview.net/forum?id=B1gZV1HYvS), based on [MA-AIRL](https://github.com/ermongroup/ma-airl).
+Implementation of CoDAIL in the paper [Multi-Agent Interactions Modeling with Correlated Policies](https://openreview.net/forum?id=B1gZV1HYvS), based on [MA-AIRL](https://github.com/ermongroup/ma-airl).
 
 ## Running the Code
 
